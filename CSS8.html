@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css8.css">
+    
+       
+    
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend><i>Seminar Registration Form</i></legend>
+            <div class="container">
+                <div class="part">
+                    <label for="firstname"><i class="fas fa-user"></i> First Name:</label>
+                    <input type="text" id="firstname" placeholder="Enter First name">
+                </div>
+
+                <div class="part">
+                    <label for="middlename"><i class="fas fa-user"></i> Middle Name:</label>
+                    <input type="text" id="middlename" placeholder="Enter Middle name">
+                </div>
+
+                <div class="part">
+                    <label for="lastname"><i class="fas fa-user"></i> Last Name:</label>
+                    <input type="text" id="lastname" placeholder="Enter Last name">
+                </div>
+
+                <div class="part">
+                    <label for="password"><i class="fa-solid fa-lock"></i> Password:</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+
+                <div class="part">
+                    <label for="email"><i class="fa-solid fa-envelope"></i> Email:</label>
+                    <input type="email" id="email" placeholder="Enter email id">
+                </div>
+
+                <div class="part">
+                    <label for="mobile"><i class="fa-solid fa-phone"></i> Mobile No.:</label>
+                    <input type="text" id="mobile" placeholder="Enter mobile no.">
+                </div>
+
+                <div class="part">
+                    <label for="address"><i class="fa-solid fa-address-book"></i> Address:</label>
+                    <input type="text" id="address" placeholder="Enter your Address">
+                </div>
+
+                <div class="gender-options part">
+                    <label><i class="fa-solid fa-venus-mars"></i> Gender:</label>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+
+                <div class="seminar-options part">
+                    <!-- <label><i class="fa-solid fa-presentation-screen"></i> Choose Seminar:</label>
+                    <label><input type="checkbox"> Academic Seminars</label>
+                    <label><input type="checkbox"> Career Development Seminars</label>
+                    <label><input type="checkbox"> Research Seminars</label>
+                    <label><input type="checkbox"> Interdisciplinary Seminars</label> -->
+                    <label for="topic"><i class="fa-solid fa-book-open"></i> Seminar Topic</label>
+            <select id="topic" name="topic">
+                <option value="tech">--Select--</option>
+                <option value="tech">Technology Trends</option>
+                <option value="health">Health & Wellness</option>
+                <option value="marketing">Digital Marketing</option>
+            </select>
+
+                </div>
+
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
