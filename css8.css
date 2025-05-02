@@ -1,0 +1,88 @@
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    width: 50%; /* Set form width */
+   
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+fieldset {
+    
+    padding: 100;
+}
+
+legend {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Adds space between fields */
+}
+
+.part {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.part input {
+    padding: 8px;
+    margin-top: 5px;
+    width: 60%; /* Control width of input fields */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.part label {
+    width: 30%;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.part i {
+    font-size: 1.2em;
+}
+
+.gender-options, .seminar-options {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.gender-options input, .seminar-options input {
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
